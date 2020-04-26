@@ -6,7 +6,7 @@ Kotlin使用语法介绍以及Intent 跳转点击事件的发生
  * 简洁: 大大减少样板代码的数量。
  * 安全: 避免空指针异常等整个类的错误。
  * 互操作性: 充分利用 JVM、Android 和浏览器的现有库。
- *初始化时候 apply plugin: 'kotlin-android-extensions'之后kotlin 可以自动找到对应的id,只要我们在主类里面导入
+ * 初始化时候 apply plugin: 'kotlin-android-extensions'之后kotlin 可以自动找到对应的id,只要我们在主类里面导入
  import kotlinx.android.synthetic.main.layout.*,除了这个还有跳转说明       val intent = Intent() intent.setClass(this@BaseGramActivity, MainActivity::class.java)
  startActivity(intent)
 
